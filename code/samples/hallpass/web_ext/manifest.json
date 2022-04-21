@@ -1,0 +1,17 @@
+{
+    "name": "Hall Pass",
+    "description": "Hall Pass",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "idle",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://hp.renix.net/*"
+    ],
+    "background": {
+        "service_worker": "main.js"
+    }
+}

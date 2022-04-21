@@ -1,0 +1,3 @@
+[submodule "basenode"]
+	path = basenode
+	url = git.renix.net:sm/basenode.git

@@ -1,0 +1,64 @@
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 0px;
+    color: #4a4a4a;
+  background: #333;
+  }
+  .box {
+   // position: absolute;
+      box-sizing: border-box;
+      padding: 20px;
+      margin: 50px auto;
+      width : 500px;
+      height: 200px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px 13px;
+      color: green;
+      text-align: center;
+      background: #123456;
+      transition: transform cubic-bezier(0.215, 0.610, 0.355, 1) 1s;
+      /* transform: rotate(180deg); */
+      /* animation: fade alternate 0.5s ease-in-out infinite; */
+  }
+  p {
+      font-size: 30px;
+  }
+  .photo {
+      margin: auto;
+      position: absolute;
+      background: url('pic.JPG');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      Right: 1in;
+      Bottom: 0px;
+      
+      /* animation: roll alternate 5s ease-in-out infinite; */
+   box-shadow: 0 0 10px 10px;
+   color: green;
+  }
+  
+  
+  
+  @keyframes fade {
+    from {
+      transform: rotate(-1deg);
+      box-shadow: 0 0 20px 13px;
+    }
+    to {
+        transform: rotate(1deg);
+      box-shadow: 0 0 20px 3px;
+    }
+  }
+  
+  @keyframes roll {
+      from {
+          left: -200px;
+          transform: rotate(0deg);
+      }
+  
+      to {
+          left: 400px;
+          transform: rotate(360deg);
