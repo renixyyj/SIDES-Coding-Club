@@ -29,7 +29,7 @@ export class endpoint extends BaseService {
     }
 
     async post(req: Request, res: Response) {
-        console.log("body %o", req.body)
+        //console.log("body %o", req.body)
         const q = 'INSERT INTO timeline (build, username, host, type, audio, incognito, url, title) values ($1, $2, $3, $4, $5, $6, $7, $8) returning id;';
         const params = [req.body.build, req.body.user, req.body.host, req.body.type, req.body.audio, req.body.incognito, req.body.url, req.body.title];
         return db.query(q, params).then(r => r.rows[0].id);

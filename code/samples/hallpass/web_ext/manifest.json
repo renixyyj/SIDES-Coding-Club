@@ -1,17 +1,31 @@
 {
     "name": "Hall Pass",
-    "description": "Hall Pass",
+    "description": "Hall Pass for your kiddies",
     "version": "1.0",
-    "manifest_version": 3,
+    "manifest_version": 2,
     "permissions": [
         "tabs",
         "idle",
-        "storage"
-    ],
-    "host_permissions": [
+        "storage",
         "https://hp.renix.net/*"
     ],
     "background": {
-        "service_worker": "main.js"
+        "scripts": ["main.js"],
+        "persistent": false
+    },
+    "icons": {
+        "48": "images/48-black.png",
+        "96": "images/96.png",
+        "128": "images/128.png",
+        "256": "images/256.png",
+        "512": "images/512.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "images/16-black.png",
+            "32": "images/16-black@2x.png",
+            "48": "images/48-black.png"
+        },
+        "default_title": "Hall Pass Loaded"
     }
 }

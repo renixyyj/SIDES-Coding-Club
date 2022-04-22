@@ -7,23 +7,21 @@
  * @author CJF
  * 
  */
+(function () {
+    setTimeout(start, 10000);
+})()
 
-(async function () {
-
-
-    /* setInterval(() => {
-         console.log("ping")
-         sendLog("PING")
-     }, 5000); */
-
-    const URL = 'https://hp.renix.net';
+async function start () {
+    
+    console.log("START")
+    const URL = 'https://hp.renix.net'; //'https://hp.renix.net';
     const config = await chrome.storage.sync.get(['user', 'host']);
     const user = config.user || 'undefined';
     const host = config.host || 'undefined';
     const build = 1;
     var current_id = null;
     var current_tab = null;
-    chrome.idle.setDetectionInterval(30);
+   // chrome.idle.setDetectionInterval(30);
 
     debounce = (() => {
         let last_bounce = 0;
@@ -50,11 +48,11 @@
         }
     }
 
-    chrome.runtime.onSuspend.addListener(() => sendLog("SUSPEND"));
+    //chrome.runtime.onSuspend.addListener(() => sendLog("SUSPEND"));
 
     chrome.runtime.onInstalled.addListener((reason) => {
         console.log("Installed", reason);
-        sendLog("BOOT");
+        sendLog("ON INSTALL");
     })
 
     /* window selected */
@@ -89,7 +87,7 @@
         }
     })
 
-    /* IDLE */
+    /* IDLE
     chrome.idle.onStateChanged.addListener(async state => {
         if (state === 'idle') {
             current_tab = null;
@@ -101,7 +99,7 @@
             if (active.focused)
                 logWindowChange(active.id);
         }
-    })
+    }) */
 
     chrome.runtime.onStartup.addListener(() => {
         console.log("STARTUP")
@@ -163,4 +161,4 @@
             });
     }
 
-})()
+}

@@ -5,7 +5,7 @@ body {
   background: #333;
   }
   .box {
-   // position: absolute;
+      /* position: absolute; */
       box-sizing: border-box;
       padding: 20px;
       margin: 50px auto;
@@ -18,7 +18,7 @@ body {
       background: #123456;
       transition: transform cubic-bezier(0.215, 0.610, 0.355, 1) 1s;
       /* transform: rotate(180deg); */
-      /* animation: fade alternate 0.5s ease-in-out infinite; */
+      animation: fade alternate 0.5s ease-in-out infinite;
   }
   p {
       font-size: 30px;
@@ -33,9 +33,9 @@ body {
       height: 200px;
       border-radius: 50%;
       Right: 1in;
-      Bottom: 0px;
+      Bottom: 100px;
       
-      /* animation: roll alternate 5s ease-in-out infinite; */
+      animation: roll alternate 5s ease-in-out infinite;
    box-shadow: 0 0 10px 10px;
    color: green;
   }
@@ -62,3 +62,5 @@ body {
       to {
           left: 400px;
           transform: rotate(360deg);
+      }
+  }

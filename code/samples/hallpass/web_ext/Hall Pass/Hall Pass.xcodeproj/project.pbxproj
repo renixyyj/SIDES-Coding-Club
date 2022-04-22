@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6663D7C9276B193800E78DEA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6663D7C8276B193800E78DEA /* images */; };
+		6663D7CA276B193800E78DEA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6663D7C8276B193800E78DEA /* images */; };
+		6689427D2769337900890948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6689427C2769337900890948 /* AppDelegate.swift */; };
+		6689427F2769337900890948 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6689427E2769337900890948 /* SceneDelegate.swift */; };
+		668942822769337900890948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668942802769337900890948 /* LaunchScreen.storyboard */; };
+		668942852769337900890948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668942832769337900890948 /* Main.storyboard */; };
+		6689428E2769337900890948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6689428D2769337900890948 /* AppDelegate.swift */; };
+		668942912769337900890948 /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6689428F2769337900890948 /* Main1.storyboard */; };
+		668942992769337900890948 /* Hall Pass Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 668942982769337900890948 /* Hall Pass Extension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		668942A32769337900890948 /* Hall Pass Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 668942A22769337900890948 /* Hall Pass Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		668942A92769337900890948 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6689426C2769337800890948 /* Main.html */; };
+		668942AA2769337900890948 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6689426C2769337800890948 /* Main.html */; };
+		668942AB2769337900890948 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6689426E2769337800890948 /* Icon.png */; };
+		668942AC2769337900890948 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6689426E2769337800890948 /* Icon.png */; };
+		668942AD2769337900890948 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6689426F2769337800890948 /* Style.css */; };
+		668942AE2769337900890948 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6689426F2769337800890948 /* Style.css */; };
+		668942AF2769337900890948 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 668942702769337800890948 /* Script.js */; };
+		668942B02769337900890948 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 668942702769337800890948 /* Script.js */; };
+		668942B12769337900890948 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668942712769337800890948 /* ViewController.swift */; };
+		668942B22769337900890948 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668942712769337800890948 /* ViewController.swift */; };
+		668942B32769337900890948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668942722769337900890948 /* Assets.xcassets */; };
+		668942B42769337900890948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668942722769337900890948 /* Assets.xcassets */; };
+		668942B52769337900890948 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668942742769337900890948 /* SafariWebExtensionHandler.swift */; };
+		668942B62769337900890948 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668942742769337900890948 /* SafariWebExtensionHandler.swift */; };
+		668942CC2769337900890948 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 668942C92769337900890948 /* main.js */; };
+		668942CD2769337900890948 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 668942CA2769337900890948 /* manifest.json */; };
+		668942CF2769337900890948 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 668942C92769337900890948 /* main.js */; };
+		668942D02769337900890948 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 668942CA2769337900890948 /* manifest.json */; };
+		66C3575827763DD100EA4267 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C3575727763DD100EA4267 /* main.swift */; };
+		66C3575927763DD100EA4267 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C3575727763DD100EA4267 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6689429A2769337900890948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668942662769337700890948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668942972769337900890948;
+			remoteInfo = "Hall Pass Extension (iOS)";
+		};
+		668942A42769337900890948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668942662769337700890948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668942A12769337900890948;
+			remoteInfo = "Hall Pass Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		668942BC2769337900890948 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				668942992769337900890948 /* Hall Pass Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668942C32769337900890948 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				668942A32769337900890948 /* Hall Pass Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6663D7822769352600E78DEA /* Hall Pass (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hall Pass (iOS).entitlements"; sourceTree = "<group>"; };
+		6663D7832769352600E78DEA /* Hall Pass Extension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hall Pass Extension (iOS).entitlements"; sourceTree = "<group>"; };
+		6663D7C8276B193800E78DEA /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		6689426D2769337800890948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		6689426E2769337800890948 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6689426F2769337800890948 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		668942702769337800890948 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		668942712769337800890948 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		668942722769337900890948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		668942742769337900890948 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		668942792769337900890948 /* Hall Pass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hall Pass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6689427C2769337900890948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6689427E2769337900890948 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		668942812769337900890948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		668942842769337900890948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		668942862769337900890948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6689428B2769337900890948 /* Hall Pass X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hall Pass X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6689428D2769337900890948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		668942902769337900890948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main1.storyboard; sourceTree = "<group>"; };
+		668942922769337900890948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668942932769337900890948 /* Hall Pass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hall Pass.entitlements"; sourceTree = "<group>"; };
+		668942982769337900890948 /* Hall Pass Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hall Pass Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6689429D2769337900890948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668942A22769337900890948 /* Hall Pass Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hall Pass Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		668942A72769337900890948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668942A82769337900890948 /* Hall Pass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hall Pass.entitlements"; sourceTree = "<group>"; };
+		668942C92769337900890948 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = main.js; path = ../../main.js; sourceTree = "<group>"; };
+		668942CA2769337900890948 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		66C3575727763DD100EA4267 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668942762769337900890948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668942882769337900890948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668942952769337900890948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6689429F2769337900890948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668942652769337700890948 = {
+			isa = PBXGroup;
+			children = (
+				6663D7832769352600E78DEA /* Hall Pass Extension (iOS).entitlements */,
+				6663D7822769352600E78DEA /* Hall Pass (iOS).entitlements */,
+				6689426A2769337800890948 /* Shared (App) */,
+				668942732769337900890948 /* Shared (Extension) */,
+				6689427B2769337900890948 /* iOS (App) */,
+				6689428C2769337900890948 /* macOS (App) */,
+				6689429C2769337900890948 /* iOS (Extension) */,
+				668942A62769337900890948 /* macOS (Extension) */,
+				6689427A2769337900890948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6689426A2769337800890948 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				668942712769337800890948 /* ViewController.swift */,
+				668942722769337900890948 /* Assets.xcassets */,
+				6689426B2769337800890948 /* Resources */,
+				66C3575727763DD100EA4267 /* main.swift */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		6689426B2769337800890948 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6689426C2769337800890948 /* Main.html */,
+				6689426E2769337800890948 /* Icon.png */,
+				6689426F2769337800890948 /* Style.css */,
+				668942702769337800890948 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		668942732769337900890948 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6663D7C8276B193800E78DEA /* images */,
+				668942C72769337900890948 /* Resources */,
+				668942742769337900890948 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		6689427A2769337900890948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668942792769337900890948 /* Hall Pass.app */,
+				6689428B2769337900890948 /* Hall Pass X.app */,
+				668942982769337900890948 /* Hall Pass Extension.appex */,
+				668942A22769337900890948 /* Hall Pass Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6689427B2769337900890948 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6689427C2769337900890948 /* AppDelegate.swift */,
+				6689427E2769337900890948 /* SceneDelegate.swift */,
+				668942802769337900890948 /* LaunchScreen.storyboard */,
+				668942832769337900890948 /* Main.storyboard */,
+				668942862769337900890948 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		6689428C2769337900890948 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6689428D2769337900890948 /* AppDelegate.swift */,
+				6689428F2769337900890948 /* Main1.storyboard */,
+				668942922769337900890948 /* Info.plist */,
+				668942932769337900890948 /* Hall Pass.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		6689429C2769337900890948 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6689429D2769337900890948 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		668942A62769337900890948 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				668942A72769337900890948 /* Info.plist */,
+				668942A82769337900890948 /* Hall Pass.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		668942C72769337900890948 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				668942C92769337900890948 /* main.js */,
+				668942CA2769337900890948 /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668942782769337900890948 /* Hall Pass (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668942BD2769337900890948 /* Build configuration list for PBXNativeTarget "Hall Pass (iOS)" */;
+			buildPhases = (
+				668942752769337900890948 /* Sources */,
+				668942762769337900890948 /* Frameworks */,
+				668942772769337900890948 /* Resources */,
+				668942BC2769337900890948 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6689429B2769337900890948 /* PBXTargetDependency */,
+			);
+			name = "Hall Pass (iOS)";
+			productName = "Hall Pass (iOS)";
+			productReference = 668942792769337900890948 /* Hall Pass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6689428A2769337900890948 /* Hall Pass (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668942C42769337900890948 /* Build configuration list for PBXNativeTarget "Hall Pass (macOS)" */;
+			buildPhases = (
+				668942872769337900890948 /* Sources */,
+				668942882769337900890948 /* Frameworks */,
+				668942892769337900890948 /* Resources */,
+				668942C32769337900890948 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668942A52769337900890948 /* PBXTargetDependency */,
+			);
+			name = "Hall Pass (macOS)";
+			productName = "Hall Pass (macOS)";
+			productReference = 6689428B2769337900890948 /* Hall Pass X.app */;
+			productType = "com.apple.product-type.application";
+		};
+		668942972769337900890948 /* Hall Pass Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668942B92769337900890948 /* Build configuration list for PBXNativeTarget "Hall Pass Extension (iOS)" */;
+			buildPhases = (
+				668942942769337900890948 /* Sources */,
+				668942952769337900890948 /* Frameworks */,
+				668942962769337900890948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hall Pass Extension (iOS)";
+			productName = "Hall Pass Extension (iOS)";
+			productReference = 668942982769337900890948 /* Hall Pass Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		668942A12769337900890948 /* Hall Pass Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668942C02769337900890948 /* Build configuration list for PBXNativeTarget "Hall Pass Extension (macOS)" */;
+			buildPhases = (
+				6689429E2769337900890948 /* Sources */,
+				6689429F2769337900890948 /* Frameworks */,
+				668942A02769337900890948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hall Pass Extension (macOS)";
+			productName = "Hall Pass Extension (macOS)";
+			productReference = 668942A22769337900890948 /* Hall Pass Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668942662769337700890948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					668942782769337900890948 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6689428A2769337900890948 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					668942972769337900890948 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					668942A12769337900890948 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 668942692769337700890948 /* Build configuration list for PBXProject "Hall Pass" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 668942652769337700890948;
+			productRefGroup = 6689427A2769337900890948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668942782769337900890948 /* Hall Pass (iOS) */,
+				6689428A2769337900890948 /* Hall Pass (macOS) */,
+				668942972769337900890948 /* Hall Pass Extension (iOS) */,
+				668942A12769337900890948 /* Hall Pass Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668942772769337900890948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668942AB2769337900890948 /* Icon.png in Resources */,
+				668942822769337900890948 /* LaunchScreen.storyboard in Resources */,
+				668942A92769337900890948 /* Main.html in Resources */,
+				668942AF2769337900890948 /* Script.js in Resources */,
+				668942B32769337900890948 /* Assets.xcassets in Resources */,
+				668942852769337900890948 /* Main.storyboard in Resources */,
+				668942AD2769337900890948 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668942892769337900890948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668942AC2769337900890948 /* Icon.png in Resources */,
+				668942AE2769337900890948 /* Style.css in Resources */,
+				668942912769337900890948 /* Main1.storyboard in Resources */,
+				668942B02769337900890948 /* Script.js in Resources */,
+				668942B42769337900890948 /* Assets.xcassets in Resources */,
+				668942AA2769337900890948 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668942962769337900890948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6663D7C9276B193800E78DEA /* images in Resources */,
+				668942D02769337900890948 /* manifest.json in Resources */,
+				668942CF2769337900890948 /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668942A02769337900890948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6663D7CA276B193800E78DEA /* images in Resources */,
+				668942CD2769337900890948 /* manifest.json in Resources */,
+				668942CC2769337900890948 /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668942752769337900890948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668942B12769337900890948 /* ViewController.swift in Sources */,
+				6689427D2769337900890948 /* AppDelegate.swift in Sources */,
+				66C3575827763DD100EA4267 /* main.swift in Sources */,
+				6689427F2769337900890948 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668942872769337900890948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668942B22769337900890948 /* ViewController.swift in Sources */,
+				6689428E2769337900890948 /* AppDelegate.swift in Sources */,
+				66C3575927763DD100EA4267 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668942942769337900890948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668942B52769337900890948 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6689429E2769337900890948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668942B62769337900890948 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6689429B2769337900890948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 668942972769337900890948 /* Hall Pass Extension (iOS) */;
+			targetProxy = 6689429A2769337900890948 /* PBXContainerItemProxy */;
+		};
+		668942A52769337900890948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668942A12769337900890948 /* Hall Pass Extension (macOS) */;
+			targetProxy = 668942A42769337900890948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6689426C2769337800890948 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6689426D2769337800890948 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		668942802769337900890948 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668942812769337900890948 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		668942832769337900890948 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668942842769337900890948 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6689428F2769337900890948 /* Main1.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668942902769337900890948 /* Base */,
+			);
+			name = Main1.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		668942B72769337900890948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = HPXT;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		668942B82769337900890948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		668942BA2769337900890948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Hall Pass Extension (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CGK8FW3T8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hall Pass Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.renix.Hall-Pass.Extension";
+				PRODUCT_NAME = "Hall Pass Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		668942BB2769337900890948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Hall Pass Extension (iOS).entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CGK8FW3T8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hall Pass Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.renix.Hall-Pass.Extension";
+				PRODUCT_NAME = "Hall Pass Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668942BE2769337900890948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iosIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = Color;
+				CODE_SIGN_ENTITLEMENTS = "Hall Pass (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CGK8FW3T8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hall Pass";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.renix.Hall-Pass";
+				PRODUCT_NAME = "Hall Pass";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		668942BF2769337900890948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = iosIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = Color;
+				CODE_SIGN_ENTITLEMENTS = "Hall Pass (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CGK8FW3T8N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hall Pass";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.renix.Hall-Pass";
+				PRODUCT_NAME = "Hall Pass";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668942C12769337900890948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Hall Pass.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CGK8FW3T8N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hall Pass Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.renix.Hall-Pass.Extension";
+				PRODUCT_NAME = "Hall Pass Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		668942C22769337900890948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Hall Pass.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CGK8FW3T8N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hall Pass Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.renix.Hall-Pass.Extension";
+				PRODUCT_NAME = "Hall Pass Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		668942C52769337900890948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = macIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = Color;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hall Pass.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CGK8FW3T8N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hall Pass 12";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.renix.Hall-Pass";
+				PRODUCT_NAME = "Hall Pass X";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		668942C62769337900890948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = macIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = Color;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hall Pass.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CGK8FW3T8N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hall Pass 12";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.renix.Hall-Pass";
+				PRODUCT_NAME = "Hall Pass X";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668942692769337700890948 /* Build configuration list for PBXProject "Hall Pass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668942B72769337900890948 /* Debug */,
+				668942B82769337900890948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668942B92769337900890948 /* Build configuration list for PBXNativeTarget "Hall Pass Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668942BA2769337900890948 /* Debug */,
+				668942BB2769337900890948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668942BD2769337900890948 /* Build configuration list for PBXNativeTarget "Hall Pass (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668942BE2769337900890948 /* Debug */,
+				668942BF2769337900890948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668942C02769337900890948 /* Build configuration list for PBXNativeTarget "Hall Pass Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668942C12769337900890948 /* Debug */,
+				668942C22769337900890948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668942C42769337900890948 /* Build configuration list for PBXNativeTarget "Hall Pass (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668942C52769337900890948 /* Debug */,
+				668942C62769337900890948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 668942662769337700890948 /* Project object */;
+}

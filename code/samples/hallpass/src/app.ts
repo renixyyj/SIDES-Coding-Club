@@ -13,7 +13,7 @@ import 'basenode';
 
 const app = express();
 const port = 8080;
-app.get('*.*', express.static("scratch"))
+app.get('*.*', express.static("html"))
 
 app.listen(port, () => {
   console.log(`Listening on ${port}`)
@@ -22,16 +22,16 @@ app.listen(port, () => {
 const apiRouter = express.Router();
 app.use('/api', apiRouter);
 
-apiRouter.use((req, res, next) => {
-  console.log("%o: %o => %o", req.method, req.path, req.query);
-  next();
-})
+// apiRouter.use((req, res, next) => {
+//   console.log("%o: %o => %o", req.method, req.path, req.query);
+//   next();
+// })
 
 import { endpoint } from './endpoints/endpoints.js';
 new endpoint(apiRouter);
 
 app.get('*', (req, res) => {
-  res.sendFile(new URL('../scratch/index_old.html', import.meta.url).pathname)
+  res.sendFile(new URL('../html/index.html', import.meta.url).pathname)
 })
 
 /*--- non-GET calls are invalid at this point --- */
