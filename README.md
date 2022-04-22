@@ -7,9 +7,9 @@
  - Cory Finer
  
 
-```
+`
 TLDR; Get ready for next meetup by becoming Git experts in your spare time! Ask your colleagues for help.
-```
+`
 > ## Notes from April 21, 2022 
 > ---
 > ### We completed our todo list for the day. Not bad for our first day!
@@ -18,9 +18,9 @@ TLDR; Get ready for next meetup by becoming Git experts in your spare time! Ask 
 > > - [x] Create SSH Keys (run `ssh-keygen` on the command line)
 > > - [x] Create GitHub Account (if your reading this, you are done!)
 > > - [x] Clone SIDES-Coding-Club (see below)
-> > - [x] **Bonus** Install Visual Studio Code and the GitGraph extension <https://code.visualstudio.com>
+> > - [x] **Bonus** Install Visual Studio Code and the `Git Graph` extension <https://code.visualstudio.com>
 >  
-> For cloning the repository I recommend everyone use the SSH option. This allows easy syncronization between your local copies of the projects and the online GitHub copy. From your private fork page, ie github.com/your_name/SIDES-Coding-Club click on the `<> Code` tab and then use the `Code` drop down button like the screenshot below. Select SSH and copy the link. Then on your command line (terminal, git-bash, etc) cd to your code folder (`cd code`) and run `git clone git@github.com:your_name/SIDES-Coding-Club.git`. You can optionally jump right into VSCode by running `code .` (yes that's a dot - it means "this folder") otherwise open VSCode from the your desktop, select `open folder` and point it to you newly created `SIDES-Coding-Club` folder.
+> For cloning the repository I recommend everyone use the SSH option. This allows easy syncronization between your local copies of the projects and the online GitHub copy. From your private fork page, ie github.com/your_name/SIDES-Coding-Club click on the `<> Code` tab and then use the `Code` drop down button like the screenshot below. Select SSH and copy the link. Then on your command line (terminal, git-bash, etc) cd to your code folder (`cd code`) and run `git clone git@github.com:your_name/SIDES-Coding-Club.git`. Windows and Linux users; you can optionally jump right into VSCode by running `code .` (yes that's a dot - it means "this folder"). Mac users open VSCode from the your desktop, select `open folder` and point it to you newly created `SIDES-Coding-Club` folder.
 >
 > *note: the screenshot of the terminal below uses the renixyyj/... repo. You need to change that to your private fork so that you can contribute your work back to the group* 
 >
@@ -32,9 +32,9 @@ TLDR; Get ready for next meetup by becoming Git experts in your spare time! Ask 
 ---
 ## Useful Online Resources
 
-```
+`
 coding club team: learn about pull-requests and then submit your edits to this page;  add links to resources here to share with the group. If you get stuck, don't worry, we will cover pull-requests in the next meetup. Use discussion group in the mean time.
-```
+`
 
 ### References
 - [Pro Git Book](https://git-scm.com/book/en/v2) learn Git from start to finish.
