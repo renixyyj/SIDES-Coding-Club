@@ -3,6 +3,7 @@
 [Jump to Resources](#useful-online-resources)
 
 ### Hosts: 
+ - David Evans
  - Stacy Finer
  - Cory Finer
  
