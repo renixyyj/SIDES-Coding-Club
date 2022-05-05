@@ -6,11 +6,33 @@
  - David Evans
  - Stacy Finer
  - Cory Finer
- 
 
-`
-TLDR; Get ready for next meetup by becoming Git experts in your spare time! Ask your colleagues for help.
-`
+
+`TLDR; Add project ideas to the ` [discussion group](https://github.com/renixyyj/SIDES-Coding-Club/discussions)
+
+
+> ## Notes from May 5, 2022
+> ---
+> ### Everyone is now up and running on GitHub and VSCode. Nice work!
+> Terminal (bash) commands we used today:
+> - [x] `ssh-keygen`⏎ `cat ~/.ssh/id_rsa.pub`⏎ Share SSH public keys with GitHub
+> - [x] `git clone` Initialy grab a local copy of the repository/project.
+> - [x] `git pull` Pull changes from GitHub to your local repo. Don't forget to **fetch** first (screenshot below)
+> - [x] `git add .` Note ending **dot**. Stage the changes you made in VSCode.
+> - [x] `git commit -am 'a useful message'` Commit your changes to your **local** copy of the repo.
+> - [x] `git push` Push your changes back to GitHub
+>
+> We didn't talk about **pull requests** today but check out GitHub's own [resources](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) on this if you want to get ahead.
+>
+> Later we will also talk about git branches and merges.
+>
+> Have a good week! Remember to add ideas for projects in the [discussion group](https://github.com/renixyyj/SIDES-Coding-Club/discussions)
+>
+>![](assets/fetch.png)
+>
+<br>
+
+
 > ## Notes from April 21, 2022 
 > ---
 > ### We completed our todo list for the day. Not bad for our first day!
@@ -46,6 +68,7 @@ coding club team: learn about pull-requests and then submit your edits to this p
 - [Markdown](https://www.markdownguide.org/basic-syntax/) for editting files like this one
 - [Python Getting Started](https://www.python.org/about/gettingstarted/)
 - [JavaScript Resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Node.JS](https://nodejs.org/en/docs/guides/getting-started-guide/) JavaScript without a web browser
 - [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html)
 - [Swift and Apple Development](https://developer.apple.com/swift/)
 - [Ruby](https://www.ruby-lang.org/en/)
@@ -71,10 +94,3 @@ Low Level | Compiled | Bytecode | Interpreted or *JIT*| Markup
 |                  | `BASIC`        |      | `Shell Script`
 |                  |                |      | `Powershell`
 
-
->## TODO Next Meetup
-> ---
-> - [ ] Using VSCode (syncing with GitHub, editting, running, debugging code)
-> - [ ] Contributing your work to GitHub (commit, push, pull-request)
-> - [ ] Submit your ideas to add to this list. Or try to explore git on your own, edit this list and create a pull-request for the group to see.
-> - [ ] more to come...
